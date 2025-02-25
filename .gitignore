@@ -1,0 +1,65 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+__pycache__
+migrations
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django-related
+db.sqlite3
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Migrations (excluding init file)
+migrations/**/*
+!migrations/__init__.py
+
+# Media and Static files
+media/
+staticfiles/
+static/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+*.pem
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Postman collections
+*.postman_collection.json
+
+# Ignore Node modules (if using frontend with Django)
+node_modules/
+
+# Ignore compiled translations
+*.mo
+locale/
+
+# Ignore deployment files
+*.log
+logs/
+config/
